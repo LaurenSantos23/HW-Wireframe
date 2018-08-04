@@ -1,0 +1,72 @@
+* { /* Work on border and padding for whole body to see if it changes layout*/
+    /* box-sizing: border-box; */
+    text-align:center;
+ }
+ 
+ 
+ body {
+     font-family:Arial, Helvetica, sans-serif;
+     color:#777;
+     background:#777;
+     width:960px;
+     font-size:18px;
+     line-height: 18px;
+     margin: 0 auto;
+ }
+   header {
+     padding: 40px;
+     margin-bottom: 15px;
+     background:#ebebeb;
+    
+     
+ }
+ 
+ .socialmedia {
+   background: #ebebeb;
+   padding: 40px;
+ }
+     
+ 
+  section {
+     margin-top:10px;
+     float: left;
+     background:#ebebeb;
+     color:grey;
+     width: 495px;
+     padding:5px 5px 5px 5px;
+     height:310px;
+ }
+ aside {
+     /* float:left; */
+     float:right;
+     background:#ebebeb;
+     width: 415px;
+     height:300px;
+     margin:10px 10px 10px 10px;
+     padding:10px 10px 10px 10px;
+     
+ }
+ footer {
+     margin:10px,10px,10px,10px;
+     background:#ebebeb;
+     clear:both;
+     height:100px;
+     padding:40px;
+ }
+ article {
+     background: #777;
+     width: 90%;
+     padding:5px 5px 5px 5px;
+     
+ }
+ h1 {
+     color:#777;
+     background:#ebebeb;
+     /*width: 90%;*/
+ }
+ p {
+     color: #777;
+     background:#ebebeb;
+     /*width: 90%;*/
+     border: 1px, black;
+ }
